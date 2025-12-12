@@ -15,8 +15,10 @@ EfficientNetB0
 All models were trained on a dataset of tomato plant leaf images labeled with different disease categories.
 
 # Requirements
-pip install utils \n
-pip install tensorflow keras \n
+pip install utils 
+
+pip install tensorflow keras 
+
 pip install numpy 
 
 # Clone the repository
