@@ -35,7 +35,7 @@ def make_classification_report(true_labels, pred_labels, class_names):
         "weighted_f1": f1_score(true_labels, pred_labels, average="weighted", zero_division=0),
     }
 
-    # Print a nice summary
+    # Print a summary
     print("\nOverall Metrics:")
     for metric, value in metrics.items():
         print(f"{metric:>20}: {value:.4f}")

@@ -1,5 +1,6 @@
 import numpy as np
 
+# generates predictions on the test dataset using the provided model
 def predict_test_data(model, test_data):
     true_labels = []
     pred_labels = []
